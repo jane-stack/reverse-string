@@ -1,5 +1,12 @@
 function reverseString(str) {
-  // type your code here
+  // Create an empty string that will hold the new string;
+  const newString = "";
+
+  for (let i = str.length - 1; i >= 0; i--) {
+    newString += str[i];
+  }
+
+  return newString;
 }
 
 if (require.main === module) {
@@ -17,3 +24,6 @@ module.exports = reverseString;
 
 // Please add your pseudocode to this file
 // And a written explanation of your solution
+
+// reverse given word.
+// Jane == enaj
